@@ -1,0 +1,149 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GameSettingsModule/1.0.0": {
+        "dependencies": {
+          "ServerCommands": "1.0.0"
+        },
+        "runtime": {
+          "GameSettingsModule.dll": {}
+        }
+      },
+      "MessagePack/2.3.75": {
+        "dependencies": {
+          "MessagePack.Annotations": "2.3.75"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/MessagePack.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.75.31876"
+          }
+        }
+      },
+      "MessagePack.Annotations/2.3.75": {
+        "runtime": {
+          "lib/netstandard2.0/MessagePack.Annotations.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.75.31876"
+          }
+        }
+      },
+      "MessagePackAnalyzer/2.3.75": {},
+      "MySqlConnector/1.3.10": {
+        "runtime": {
+          "lib/netcoreapp3.1/MySqlConnector.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.10.0"
+          }
+        }
+      },
+      "Database/1.0.0": {
+        "dependencies": {
+          "MySqlConnector": "1.3.10"
+        },
+        "runtime": {
+          "Database.dll": {}
+        }
+      },
+      "ServerCommands/1.0.0": {
+        "dependencies": {
+          "MessagePack": "2.3.75",
+          "MessagePackAnalyzer": "2.3.75",
+          "ServerDataStruct": "1.0.0",
+          "ServerDatabaseMySql": "1.0.0",
+          "ServerStatistics": "1.0.0"
+        },
+        "runtime": {
+          "ServerCommands.dll": {}
+        }
+      },
+      "ServerDatabaseMySql/1.0.0": {
+        "dependencies": {
+          "Database": "1.0.0",
+          "MySqlConnector": "1.3.10"
+        },
+        "runtime": {
+          "ServerDatabaseMySql.dll": {}
+        }
+      },
+      "ServerDataStruct/1.0.0": {
+        "dependencies": {
+          "MessagePack": "2.3.75"
+        },
+        "runtime": {
+          "ServerDataStruct.dll": {}
+        }
+      },
+      "ServerStatistics/1.0.0": {
+        "runtime": {
+          "ServerStatistics.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GameSettingsModule/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessagePack/2.3.75": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+b2grPmbMoPFNfHW5B3csTrGDkgbWuWHRuiRS5xtbUwHRivl0tIvAqZpN4Vao/cn/aQJAa8GYpATCN1DklOO3A==",
+      "path": "messagepack/2.3.75",
+      "hashPath": "messagepack.2.3.75.nupkg.sha512"
+    },
+    "MessagePack.Annotations/2.3.75": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kJHrbGe6H2ZM/sTAfcPGMmpUciydfDWLyewmwvZNPm0qCq1g3gNgF/6TlU1E0gb64SdccgWmAN/5vywRROM1Xw==",
+      "path": "messagepack.annotations/2.3.75",
+      "hashPath": "messagepack.annotations.2.3.75.nupkg.sha512"
+    },
+    "MessagePackAnalyzer/2.3.75": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-911Vi28KaZ9QhJ0M25vOEOgrLPbROPc6ZbCzVixAA9f8I+6pCxky2spLAIy/mShxpl0ABeVFlw8J0M1MWvpS+A==",
+      "path": "messagepackanalyzer/2.3.75",
+      "hashPath": "messagepackanalyzer.2.3.75.nupkg.sha512"
+    },
+    "MySqlConnector/1.3.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-geL3pNiwbSXzUqQLHLm2/igDHuz5Q4qqp2rKczYoIHtdvvrsd5fnYHN8eFgP81qu77Blv0+0IOn69RJATNQoSQ==",
+      "path": "mysqlconnector/1.3.10",
+      "hashPath": "mysqlconnector.1.3.10.nupkg.sha512"
+    },
+    "Database/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServerCommands/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServerDatabaseMySql/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServerDataStruct/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServerStatistics/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
